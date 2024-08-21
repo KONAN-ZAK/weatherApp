@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans  text-gray-300  bg-gradient-to-r from-violet-600 to-cyan-600
+    xxs:text-lg
+     /* xs: sm:  lg: md: xl: 2xl: */;
+    /*  */
+  }
+}
+
+/* the WeatherDayStatus part  */
+.downBarInfo img {
+  @apply md:w-20  xxs:w-12;
+}
+
+.downBarInfo div {
+  @apply flex flex-col items-center justify-center content-center;
+}
+/* the WeatherDayStatus part  */
